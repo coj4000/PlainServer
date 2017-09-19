@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlainServer
+namespace PlainClient
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Server server = new Server();
-            server.Start();
+            Client client = new Client();
+            client.Start();
+
         }
     }
 }
